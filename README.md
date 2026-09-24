@@ -1,33 +1,37 @@
 # t.hara.3
 
-Software engineer working mainly on backend, infrastructure, and product development.  
-These days, I'm building my own products and spending more time on product ideas, validation, and shipping things from scratch.
+I build systems others can operate without me.
 
-## Current projects
+Backend/infrastructure engineer by background, now building my own products — ones that don't collect data they don't need.
+
+Writing & more → https://tadahara.com
+
+## Building
 
 ### akaito
 
-A service for connections formed through repeated encounters, designed so the server doesn't learn what it doesn't need.
+A service that helps people connect after repeatedly encountering each other in everyday life.
+
+Designed to keep precise location and encounter-place data on the user's device.
 
 ### MyAccount
-A personal finance app shaped around how I actually manage my own money.
+
+A personal finance app built around how I actually manage accounts, transactions, currencies, and investments.
 
 ### tiny-tools
 
-Small web tools for everyday problems.
+Lightweight, mostly client-side web tools for everyday problems.
 
-## Recent work
+Live and actively developed → https://tools.tadahara.com/
 
-- Built a new production cluster end-to-end as the sole backend/infrastructure engineer, covering networking, managed databases, CI/CD, and service deployment
-- Moved services toward keyless infrastructure access with Workload Identity
-- Implemented product safeguards around consent, privacy requirements, and fail-closed AI feature gating
-- Standardized deployment and operational workflows
-- Turned system knowledge into documentation and repeatable handover processes
+## How I work
 
-That last part matters to me: making systems less dependent on the person who built them.  
-I'm applying the same thing to my own products now.
+I use AI heavily for implementation, while keeping product direction, review, verification, and production responsibility on my side.
 
-I also changed how I build software.
+I keep decisions and operational knowledge explicit through issues, documentation, and repeatable workflows.
 
-Instead of writing most of the code myself, I now use AI heavily for implementation.  
-I spend more of my time deciding direction, reviewing the result, verifying it, and running it in production.
+## Selected engineering work
+
+- Implemented consent-based safeguards so user data is not sent to AI features unless explicitly permitted
+- Built production infrastructure end-to-end as the sole backend/infrastructure engineer, including keyless service access
+- Improved deployment, documentation, and handover so systems were less dependent on individual maintainers
